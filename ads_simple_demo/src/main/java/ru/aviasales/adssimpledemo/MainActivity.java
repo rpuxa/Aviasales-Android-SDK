@@ -4,9 +4,8 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
-
 import com.appodeal.ads.Appodeal;
-
+import com.appodeal.ads.utils.Log;
 import ru.aviasales.appodeallib.AppodealAds;
 import ru.aviasales.core.AviasalesSDK;
 import ru.aviasales.core.identification.SdkConfig;
@@ -42,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
 	private void initAppodeal() {
 		AppodealAds ads = new AppodealAds();
-		Appodeal.setLogging(true);
+		Appodeal.setLogLevel(Log.LogLevel.debug);
 		ads.setStartAdsEnabled(SHOW_ADS_ON_START);
 		ads.setWaitingScreenAdsEnabled(SHOW_ADS_ON_WAITING_SCREEN);
 		ads.setResultsAdsEnabled(SHOW_ADS_ON_SEARCH_RESULTS);

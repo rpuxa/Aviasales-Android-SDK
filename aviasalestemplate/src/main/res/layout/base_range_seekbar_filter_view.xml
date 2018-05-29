@@ -15,7 +15,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:textSize="14dp"
-			app:typeface="roboto_medium"
+			app:robotoTypeface="roboto_medium"
 			android:layout_marginLeft="16dp"
 			android:layout_marginRight="16dp"
 			android:textColor="@color/base_filter_title_text_color"/>
@@ -27,7 +27,7 @@
 			android:layout_marginTop="22dp"
 			android:gravity="center_horizontal"
 			android:textColor="@color/base_filter_value_color"
-			app:typeface="roboto_medium"
+			app:robotoTypeface="roboto_medium"
 			android:layout_marginRight="16dp"
 			android:layout_marginLeft="16dp"/>
 
