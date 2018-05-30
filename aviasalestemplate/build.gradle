@@ -47,7 +47,7 @@ apply plugin: 'maven'
 
 task copyLanguageFolders() {
 
-    ['values-az/', 'values-hy/', 'values-be/', 'values-kk/', 'values-ky/', 'values-ro/', 'values-uz/', 'values-uk/', 'values-ka/'].each { dest ->
+    ['values-az/', 'values-hy/', 'values-be/', 'values-kk/', 'values-ky/', 'values-uz/', 'values-uk/', 'values-ka/'].each { dest ->
         copy {
             from 'src/main/res/values-ru/'
             into 'src/main/res/' + dest
