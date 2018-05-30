@@ -249,7 +249,9 @@ public class SelectAirportFragment extends BaseFragment {
           @Override
           public void onSuccess(List<PlaceData> placeDates) {
             placesFromServer = placeDates;
-            getActivity().runOnUiThread(updatePlaces);
+            if (getActivity() != null) {
+              getActivity().runOnUiThread(updatePlaces);
+            }
           }
 
           @Override
