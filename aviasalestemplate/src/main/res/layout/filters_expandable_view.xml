@@ -24,7 +24,7 @@
 				android:id="@+id/tv_segment_iatas"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				app:typeface="roboto_medium"
+				app:robotoTypeface="roboto_medium"
 				android:textSize="14dp"
 				android:layout_centerVertical="true"
 				android:layout_marginLeft="16dp"

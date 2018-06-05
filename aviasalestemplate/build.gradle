@@ -6,6 +6,7 @@ version = VERSION_NAME
 repositories {
     jcenter()
     mavenCentral()
+    google()
     maven { url 'http://android.aviasales.ru/repositories/' }
 }
 
@@ -14,33 +15,39 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        minSdkVersion 9
+        minSdkVersion 14
         targetSdkVersion rootProject.ext.targetSdkVersion
     }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    compile "com.android.support:appcompat-v7:$rootProject.ext.supportVersion"
-    compile "com.android.support:cardview-v7:$rootProject.ext.supportVersion"
-    compile "com.android.support:recyclerview-v7:$rootProject.ext.supportVersion"
+    implementation "com.android.support:appcompat-v7:$rootProject.ext.supportVersion"
+    implementation "com.android.support:cardview-v7:$rootProject.ext.supportVersion"
+    implementation "com.android.support:recyclerview-v7:$rootProject.ext.supportVersion"
 
-    compile 'ru.aviasales:aviasalesSdk:2.1.10-sdk'
-    compile project(':adsinterface')
-    compile project(':expandedlistview')
+    api 'ru.aviasales:aviasalesSdk:2.1.12-sdk'
+    implementation project(':adsinterface')
+    implementation project(':expandedlistview')
 
-    compile 'com.github.johnkil.android-robototextview:robototextview:2.2.0'
-    compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
-    compile "com.google.android.gms:play-services-ads:$rootProject.ext.gmsVersion"
+    implementation 'com.github.johnkil.android-robototextview:robototextview:4.0.0'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+    implementation ("com.google.android.gms:play-services-ads:$rootProject.ext.gmsVersion"){
+        exclude module: 'support-fragment'
+        exclude module: 'support-core-utils'
+        exclude module: 'support-core-ui'
+        exclude module: 'support-compat'
+
+    }
 }
 
 apply plugin: 'maven'
 
 task copyLanguageFolders() {
 
-    ['values-az/', 'values-hy/', 'values-be/', 'values-kk/', 'values-ky/', 'values-ro/', 'values-uz/', 'values-uk/', 'values-ka/'].each { dest ->
+    ['values-az/', 'values-hy/', 'values-be/', 'values-kk/', 'values-ky/', 'values-uz/', 'values-uk/', 'values-ka/'].each { dest ->
         copy {
             from 'src/main/res/values-ru/'
             into 'src/main/res/' + dest

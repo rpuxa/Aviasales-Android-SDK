@@ -3,7 +3,7 @@ Aviasales/JetRadar Android SDK 2.0
 
 Aviasales/JetRadar Android SDK is a framework integrating flight search engine into your app. When your customer books a flight, we pay you a [commission fee](https://www.travelpayouts.com). Framework is based on leading flight search engines [Aviasales](http://www.aviasales.ru) and [JetRadar](http://www.jetradar.com).
 
-SDK supports all Android devices with Android 2.3 (API 9) and higher.
+SDK supports all Android devices with Android 4.0 (API 14) and higher.
 
 The framework consists of:
 * search API library for search server interaction;
@@ -36,7 +36,7 @@ repositories {
 }
 
 dependencies {
-    compile 'ru.aviasales.template:aviasalesSdk:2.1.10-sdk'
+    compile 'ru.aviasales.template:aviasalesSdk:2.1.12-sdk'
 }
 ```
 
@@ -48,7 +48,7 @@ repositories {
 }
 
 dependencies {
-    compile 'ru.aviasales.template:aviasalesSdkTemplate:2.1.10'
+    compile 'ru.aviasales.template:aviasalesSdkTemplate:2.1.12'
 }
 ```
 
@@ -196,7 +196,7 @@ To add Appodeal Ads to your project just add additional maven dependency:
 
 ```gradle
 dependencies {
-    compile 'ru.aviasales.template:appodeallib:2.1.10'
+    compile 'ru.aviasales.template:appodeallib:2.1.12'
 }
 ```
 

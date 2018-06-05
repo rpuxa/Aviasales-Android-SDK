@@ -27,7 +27,7 @@
 			android:text="14:20 — 10:50"
 			android:textColor="@color/grey_B3555555"
 			android:textSize="14dp"
-			app:typeface="roboto_medium"/>
+			app:robotoTypeface="roboto_medium"/>
 
 	<View
 			android:id="@+id/transfers_anchor_view"
