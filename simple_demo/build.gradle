@@ -1,9 +1,9 @@
 apply plugin: 'com.android.application'
 
 repositories {
-  jcenter()
   mavenCentral()
   google()
+  jcenter()
   maven { url 'http://android.aviasales.ru/repositories/' }
   maven {
     url 'http://aviasalesandroid.fvds.ru:8080/nexus/content/repositories/as_android_beta/'
@@ -16,7 +16,6 @@ repositories {
 
 android {
   compileSdkVersion rootProject.ext.compileSdkVersion
-  buildToolsVersion rootProject.ext.buildToolsVersion
 
   defaultConfig {
     applicationId "ru.aviasales.example"

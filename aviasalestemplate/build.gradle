@@ -4,15 +4,14 @@ project.group = GROUP
 version = VERSION_NAME
 
 repositories {
-    jcenter()
     mavenCentral()
     google()
+    jcenter()
     maven { url 'http://android.aviasales.ru/repositories/' }
 }
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
         minSdkVersion 14
@@ -33,7 +32,7 @@ dependencies {
 
     implementation 'com.github.johnkil.android-robototextview:robototextview:4.0.0'
     implementation 'com.nineoldandroids:library:2.4.0'
-    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
     implementation ("com.google.android.gms:play-services-ads:$rootProject.ext.gmsVersion"){
         exclude module: 'support-fragment'
         exclude module: 'support-core-utils'

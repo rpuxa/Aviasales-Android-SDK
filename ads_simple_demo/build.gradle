@@ -12,7 +12,6 @@ repositories {
 
 android {
   compileSdkVersion rootProject.ext.compileSdkVersion
-  buildToolsVersion rootProject.ext.buildToolsVersion
 
   defaultConfig {
     applicationId "ru.aviasales.ads_example"
@@ -46,8 +45,8 @@ android {
 dependencies {
   implementation(project(':appodeallib'))
   implementation project(':aviasalestemplate')
-  //	compile 'ru.aviasales.template:aviasalesSdkTemplate:2.1.10'
-  //    implementation 'ru.aviasales.template:appodeallib:2.1.10'
+//  compile 'ru.aviasales.template:aviasalesSdkTemplate:2.1.12'
+//      implementation 'ru.aviasales.template:appodeallib:2.1.13'
   implementation 'com.android.support:multidex:1.0.3'
   implementation "com.android.support:appcompat-v7:$rootProject.ext.supportVersion"
 }
