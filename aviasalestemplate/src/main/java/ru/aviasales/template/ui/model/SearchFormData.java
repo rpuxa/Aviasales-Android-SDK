@@ -2,13 +2,11 @@ package ru.aviasales.template.ui.model;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
-
 import ru.aviasales.core.http.utils.CoreDateUtils;
 import ru.aviasales.core.search.params.Passengers;
 import ru.aviasales.core.search.params.SearchParams;
@@ -301,7 +299,7 @@ public class SearchFormData {
 
 		if (isComplexSearchSelected) {
 			for (ComplexSearchParamsSegment segment : complexSearchSegments) {
-				if (segment.getOrigin().getIata().equals(segment.getDestination().getIata()) ||
+				if (segment.getOrigin().getCode().equals(segment.getDestination().getCode()) ||
 						segment.getOrigin().getCityName().equals(segment.getDestination().getCityName()))
 					return true;
 			}

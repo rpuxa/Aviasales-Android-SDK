@@ -27,7 +27,7 @@
 			android:text="27 сент"
 			android:textColor="@color/gray_828282"
 			android:textSize="14dp"
-			app:typeface="roboto_medium"/>
+			app:robotoTypeface="roboto_medium"/>
 
 	<com.devspark.robototextview.widget.RobotoTextView
 			android:id="@+id/tv_cities"
@@ -49,7 +49,7 @@
 			android:text="14:20 — 10:50"
 			android:textColor="@color/gray_828282"
 			android:textSize="14dp"
-			app:typeface="roboto_medium"/>
+			app:robotoTypeface="roboto_medium"/>
 
 	<RelativeLayout
 			android:id="@+id/fl_flight_duration"
