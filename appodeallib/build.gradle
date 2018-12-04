@@ -32,9 +32,9 @@ dependencies {
   implementation "com.android.support:recyclerview-v7:$rootProject.ext.supportVersion"
   api project(':adsinterface')
 
-  implementation "com.google.android.gms:play-services-ads:17.1.1"
-	implementation "com.google.android.gms:play-services-location:$rootProject.ext.gmsVersion"
-	implementation "com.google.android.gms:play-services-gcm:$rootProject.ext.gmsVersion"
+  api "com.google.android.gms:play-services-ads:17.1.2"
+	implementation "com.google.android.gms:play-services-location:16.0.0"
+	implementation "com.google.android.gms:play-services-gcm:16.0.0"
 
   implementation name: 'adcolony-sdk-3.2.1', ext: 'aar'
   implementation name: 'mmedia-6.4.0', ext: 'aar'

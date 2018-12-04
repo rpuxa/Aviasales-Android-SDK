@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import com.appodeal.ads.Appodeal;
 import com.appodeal.ads.utils.Log;
+import com.google.android.gms.ads.MobileAds;
 import ru.aviasales.appodeallib.AppodealAds;
 import ru.aviasales.core.AviasalesSDK;
 import ru.aviasales.core.identification.SdkConfig;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 	private final static String TRAVEL_PAYOUTS_TOKEN = "your_travel_payouts_token";
 	private final static String APPODEAL_APP_KEY = "your_travel_appodeal_key";
 	private final static String SDK_HOST = "www.travel-api.pw";
+
 	private final static boolean SHOW_ADS_ON_START = true;
 	private final static boolean SHOW_ADS_ON_WAITING_SCREEN = true;
 	private final static boolean SHOW_ADS_ON_SEARCH_RESULTS = true;
@@ -27,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
+		MobileAds.initialize(this, this.getString(R.string.admob_key));
 		AviasalesSDK.getInstance().init(this, new SdkConfig(TRAVEL_PAYOUTS_MARKER, TRAVEL_PAYOUTS_TOKEN, SDK_HOST));
 		setContentView(R.layout.activity_main);
 
