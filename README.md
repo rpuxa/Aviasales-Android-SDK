@@ -36,7 +36,7 @@ repositories {
 }
 
 dependencies {
-    compile 'ru.aviasales.template:aviasalesSdk:2.1.13-sdk'
+    compile 'ru.aviasales.template:aviasalesSdk:2.1.14-sdk'
 }
 ```
 
@@ -48,7 +48,7 @@ repositories {
 }
 
 dependencies {
-    compile 'ru.aviasales.template:aviasalesSdkTemplate:2.1.13'
+    compile 'ru.aviasales.template:aviasalesSdkTemplate:2.1.14'
 }
 ```
 
@@ -196,7 +196,7 @@ To add Appodeal Ads to your project just add additional maven dependency:
 
 ```gradle
 dependencies {
-    compile 'ru.aviasales.template:appodeallib:2.1.13'
+    compile 'ru.aviasales.template:appodeallib:2.1.14'
 }
 ```
 
@@ -210,6 +210,20 @@ And then initialize it
 		ads.init(this, APPODEAL_APP_KEY);  // your appodeal key
 		AdsImplKeeper.getInstance().setCustomAdsInterfaceImpl(ads); // assign your appodeal
 ```
+### Admob support
+If you use play services version 17 and upper you must add <meta-data> tag to Android manifest file. 
+```xml
+<manifest>
+    <application>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="[ADMOB_APP_ID]"/>
+    </application>
+</manifest>
+```
+You can get ADMOB_APP_ID here:
+![][3]	
+
 
 For more information about appodal ads see the [ads demo project](https://github.com/KosyanMedia/Aviasales-Android-SDK/tree/master/ads_simple_demo)
 
@@ -220,3 +234,4 @@ For more information about appodal ads see the [ads demo project](https://github
 
 [1]: /screenshots/screen.gif "Screenshot1"
 [2]: /screenshots/Screenshot_ads1.png "Screenshot2"
+[3]: https://appodeal-uploads.s3.amazonaws.com/server/production/docs_editor/0e60aa4a-f664-4fe8-8db0-54e37debd08e_de_AdMob_2018-10-11_11-16-33.png
