@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AS Ads Demo</string>
+    <string name="admob_key">ADMOB_ID</string>
 </resources>
