@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AS Ads Demo</string>
-    <string name="admob_key">ADMOB_ID</string>
+    <!--Replace with your ADMOB ID. for more information : https://goo.gl/fQ2neu  -->
+    <string name="admob_key">!REPLACE_WITH_ADMOB_ID!</string>
 </resources>
