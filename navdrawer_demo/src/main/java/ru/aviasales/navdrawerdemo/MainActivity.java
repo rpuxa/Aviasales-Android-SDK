@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity
 	private AviasalesFragment aviasalesFragment;
 
 	// replace with your travel payout credentiials
-	private final static String TRAVEL_PAYOUTS_MARKER = "48729";
-	private final static String TRAVEL_PAYOUTS_TOKEN = "978f851b049dfb0f8a1a24e436be1f82";
+	private final static String TRAVEL_PAYOUTS_MARKER = "your_travel_payouts_marker";
+	private final static String TRAVEL_PAYOUTS_TOKEN = "your_travel_payouts_token";
 	private final static String SDK_HOST = "www.travel-api.pw";
 	private final static String APPODEAL_APP_KEY = "your_appodeal_app_key";
 
