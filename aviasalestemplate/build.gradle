@@ -33,13 +33,6 @@ dependencies {
     implementation 'com.github.johnkil.android-robototextview:robototextview:4.0.0'
     implementation 'com.nineoldandroids:library:2.4.0'
     implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
-    implementation ("com.google.android.gms:play-services-ads:17.1.2"){
-        exclude module: 'support-fragment'
-        exclude module: 'support-core-utils'
-        exclude module: 'support-core-ui'
-        exclude module: 'support-compat'
-
-    }
 }
 
 apply plugin: 'maven'
