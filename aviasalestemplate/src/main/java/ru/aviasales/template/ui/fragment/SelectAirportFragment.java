@@ -2,6 +2,7 @@ package ru.aviasales.template.ui.fragment;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -259,7 +260,7 @@ public class SelectAirportFragment extends BaseFragment {
           }
 
           @Override
-          public void onError(int errorCode, int responseCode, String searchId) {
+          public void onError(int errorCode, int responseCode, @Nullable Throwable throwable, String searchId) {
             Log.e(SelectAirportFragment.class.getSimpleName(), "ErrorCode: " + errorCode + "ResponseCode: " + responseCode);
           }
         });
