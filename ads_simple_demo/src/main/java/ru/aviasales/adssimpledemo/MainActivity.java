@@ -12,6 +12,7 @@ import ru.aviasales.core.AviasalesSDK;
 import ru.aviasales.core.identification.SdkConfig;
 import ru.aviasales.template.ads.AdsImplKeeper;
 import ru.aviasales.template.ui.fragment.AviasalesFragment;
+import ru.aviasales.template.utils.PrivacyPolicyUrl;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		MobileAds.initialize(this, this.getString(R.string.admob_key));
+		//Replace with your Privacy policy URL or leave blank for default Privacy policy
+		PrivacyPolicyUrl.setUrl("");
 		AviasalesSDK.getInstance().init(this, new SdkConfig(TRAVEL_PAYOUTS_MARKER, TRAVEL_PAYOUTS_TOKEN, SDK_HOST));
 		setContentView(R.layout.activity_main);
 
