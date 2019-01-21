@@ -3,7 +3,7 @@ Aviasales/JetRadar Android SDK 2.0
 
 Aviasales/JetRadar Android SDK is a framework integrating flight search engine into your app. When your customer books a flight, we pay you a [commission fee](https://www.travelpayouts.com). Framework is based on leading flight search engines [Aviasales](http://www.aviasales.ru) and [JetRadar](http://www.jetradar.com).
 
-SDK supports all Android devices with Android 4.0 (API 14) and higher.
+SDK supports all Android devices with Android API 16 and higher.
 
 The framework consists of:
 * search API library for search server interaction;
@@ -19,10 +19,8 @@ Learn more and complete integration with [Aviasales Android SDK Documentation](h
 
 More languages: [RUS] [Документация Aviasaels Android SDK](https://github.com/KosyanMedia/Aviasales-Android-SDK/wiki/О-SDK).
 
-## What's new
-- `IdentificationData.java` is renamed to `SdkConfig.java`
-- In `IdentificationData` added `sdk-host` parameter. See Installation instructions for more info
-
+## What's new in 2.1.17
+- Added default privacy policy (you should change it to your own). Set it through `PrivacyPolicyUrl.setUrl("MY_PRIVACY_POLICY_URL");`
 
 ## Installation
 
@@ -36,7 +34,7 @@ repositories {
 }
 
 dependencies {
-    compile 'ru.aviasales:aviasalesSdk:2.1.15-sdk'
+    compile 'ru.aviasales:aviasalesSdk:2.1.16-sdk'
 }
 ```
 
@@ -48,7 +46,7 @@ repositories {
 }
 
 dependencies {
-    compile 'ru.aviasales.template:aviasalesSdkTemplate:2.1.16'
+    compile 'ru.aviasales.template:aviasalesSdkTemplate:2.1.17'
 }
 ```
 
@@ -196,7 +194,7 @@ To add Appodeal Ads to your project just add additional maven dependency:
 
 ```gradle
 dependencies {
-    compile 'ru.aviasales.template:appodeallib:2.1.16'
+    compile 'ru.aviasales.template:appodeallib:2.1.17'
 }
 ```
 
