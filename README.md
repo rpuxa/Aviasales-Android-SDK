@@ -22,6 +22,16 @@ More languages: [RUS] [Документация Aviasaels Android SDK](https://g
 ## What's new in 2.1.17
 - Added default privacy policy (you should change it to your own). Set it through `PrivacyPolicyUrl.setUrl("MY_PRIVACY_POLICY_URL");`
 
+## Privacy Policy
+
+Privacy Policy is **REQUIRED** for your app. If it is missing, your app may be removed from the Google Play at anytime.  
+We've included a default Privacy Policy in the template app, but you should create YOUR OWN.  
+(you can use online services like [privacypolicytemplate.net](https://privacypolicytemplate.net) or [App Privacy Policy Generator](https://app-privacy-policy-generator.firebaseapp.com)).  
+NEXT STEPS:
+1) Upload privacy policy to your website and copy a link to it.
+2) Use this link for a Privacy Policy field in Google Play Console.
+3) Inside your app call PrivacyPolicyUrl.setUrl("MY_PRIVACY_POLICY_URL") with a link to your own Privacy Policy.
+
 ## Installation
 
 ### Add gradle dependencies 
