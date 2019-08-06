@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":ads_simple_demo" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":aviasalesapp" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
-        <option name="GRADLE_PROJECT_PATH" value=":ads_simple_demo" />
+        <option name="GRADLE_PROJECT_PATH" value=":aviasalesapp" />
       </configuration>
     </facet>
     <facet type="android" name="Android">
@@ -20,6 +20,44 @@
         <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/build/generated/res/rs/debug" />
         <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$MODULE_DIR$/../../../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.3.41/8d3d500e42bd74c17fa9586db8ca85c336979d02/kotlin-android-extensions-runtime-1.3.41.jar;C:/Projects/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.41/a1f331124ba069a09e964ad2640c36f140f2c758/kotlin-stdlib-jdk7-1.3.41.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7e0f11592f4f10142dc3624f0b6431f1/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0d98debbffdc3a92c7dc2c5940474c3e/jars/classes.jar;C:/Projects/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.41/e24bd38de28a326cce8b1f0d61e809e9a92dad6a/kotlin-stdlib-1.3.41.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/1eb37c7750128e8ccd897cbd814094f8/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/632a65c0ac118b10ba01bad7579d1bec/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/d7bcce06c2db40cccdd894814a5ec6f1/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ace521eaa3cac731865e840c0c688b8a/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/077411516b9378e839dbdaa57c9c2e6c/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/267c7bdd4914fe2481bff3396adca3bb/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/6672e71f0998f47eec9eddbf22720cdb/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/4e05c2805b9664fa98e6be4ca277480e/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/be00e678c3171fafe7bfa8759c031c5c/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/9d04fe0b05c1c08c614195ceda3aa240/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/3e80693810f1a7af4b6ddd51abdeb8fc/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/117beb670fd5c40e3cedea911b87d459/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/74b8a86fe4f6703039807546d8933f86/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/07c3b3fb22b7b123cfb049303a80ac7a/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/91622150a8b58107db0b560b40f20023/jars/classes.jar;C:/Projects/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/218910adf4512bb98cc3cc490f214a1b/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/aviasalesSdk-2.1.16-sdk.aar/09893e0427b98519c0c1c0c63148a8f8/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/fd5a5460b5109f84dcddd24895cd27ba/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8ed424ef26e482657af7e0d402c695d2/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/c002831db829736b26ebca6b02ee2863/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9b25e761c680cb21449fa27c68eb219d/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/e04747a3b7b08bd3aed222760dec854e/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/6fb3cf72e2f1f30de8b7c5d06c730fab/jars/classes.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/df83c05c7f13d135cdc4681bb67f1ef5/jars/classes.jar;C:/Projects/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/852d3097a01f85fae98746dc59b354bc/jars/classes.jar;C:/Projects/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar;C:/Projects/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/9c8a29c05dff9fefe913aa84d7aeaa07/jars/classes.jar;C:/Projects/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar;C:/Projects/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar;C:/Projects/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.41/2ecf4aa059427d7186312fd1736afedf7972e7f7/kotlin-stdlib-common-1.3.41.jar;C:/Projects/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.5.0/1c96fc5d0230f57d36cd09e2541d10829a3352a7/converter-gson-2.5.0.jar;C:/Projects/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.5.0/713ce36037bf24a76a3974c05cb85c3f754b1cc3/retrofit-2.5.0.jar;C:/Projects/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar;C:/Projects/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations-java5/15.0/7011b4551a8451906759b05814c58b9eb829ea9b/annotations-java5-15.0.jar;C:/Projects/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/b36f4a04584c0fb0d9af2d3401cdff8dacb1ea54/okhttp-3.12.0.jar;C:/Projects/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.15.0/bc28b5a964c8f5721eb58ee3f3c47a9bcbf4f4d8/okio-1.15.0.jar;C:/SDK/platforms/android-28/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="aviasalesapp_debug" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$MODULE_DIR$/../../../.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar" />
+              <option value="$MODULE_DIR$/../../../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.41/3bb1958b60435763b1299eb4e2dea5bea3bab2a3/kotlin-android-extensions-1.3.41.jar" />
+              <option value="$MODULE_DIR$/../../../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.3.41/6b1d4385d65894e07a0d14a5949f5417a408f0b7/kotlin-compiler-embeddable-1.3.41.jar" />
+              <option value="$MODULE_DIR$/../../../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.41/8fb58b8954661de666e321478bf4178c18ce8018/kotlin-reflect-1.3.41.jar" />
+              <option value="$MODULE_DIR$/../../../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.41/bcc3380041bbba171119c22d7024961b60da69e0/kotlin-script-runtime-1.3.41.jar" />
+              <option value="$MODULE_DIR$/../../../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.41/2ecf4aa059427d7186312fd1736afedf7972e7f7/kotlin-stdlib-common-1.3.41.jar" />
+              <option value="$MODULE_DIR$/../../../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.41/e24bd38de28a326cce8b1f0d61e809e9a92dad6a/kotlin-stdlib-1.3.41.jar" />
+              <option value="$MODULE_DIR$/../../../.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
       </configuration>
     </facet>
   </component>
@@ -92,77 +130,61 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-identifier:16.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\applovin-7.5.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-fragment:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:localbroadcastmanager:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\eventbus-2.2.1.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:viewmodel:1.1.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test.espresso:espresso-idling-resource:3.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:loader:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.core:runtime:1.1.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-base:17.1.2@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\facebook-4.26.1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test:runner:1.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata-core:1.1.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\vungle-sdk-android-5.1.0.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\ironsource-6.7.3.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup:javawriter:2.1.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:cursoradapter:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-lite:17.1.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test.espresso:espresso-core:3.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime:1.1.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-compat:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\avocarrot-3.8.2.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\javax.inject-1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: javax.inject:javax.inject:1@jar" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations-java5:15.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\tapjoy-11.11.0.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\chartboost-6.6.3.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:customtabs:26.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-core-utils:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\inmobi-6.2.3.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test:monitor:1.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-annotations:28.0.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:interpolator:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata:1.1.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:drawerlayout:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\startapp-3.6.7.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\appnext-2.0.3.459.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\dagger-2.7.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.12.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\mailru-4.6.17.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout-solver:1.1.3@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.sf.kxml:kxml2:2.3.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:documentfile:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.5@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:slidingpanelayout:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\ogury-2.1.15.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\appodeal-2.1.11.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7:28.0.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support:multidex-instrumentation:1.0.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.41@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.41@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.41@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:collections:28.0.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-v4:26.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-gson:2.5.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\yandex-metrica-2.73.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\unity_ads-2.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-core-ui:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: ru.aviasales:aviasalesSdk:2.1.16-sdk@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.41@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:asynclayoutinflater:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout:1.1.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:print:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-media-compat:26.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.findbugs:jsr305:2.0.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.core:common:1.1.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:versionedparcelable:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-gass:17.1.2@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Projects\Android\AviasalesApplication\appodeallib\libs\yandex-mobileads-2.61.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.retrofit2:retrofit:2.5.0@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:viewpager:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:16.0.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads:17.1.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-integration:1.3@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-library:1.3@jar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:common:1.1.1@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-sdk-api:16.0.4@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:coordinatorlayout:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:customview:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:swiperefreshlayout:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:multidex:1.0.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.15.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-base:16.0.5@aar" level="project" />
     <orderEntry type="module" module-name="aviasalestemplate" />
-    <orderEntry type="module" module-name="adsinterface" />
-    <orderEntry type="module" module-name="appodeallib" />
   </component>
 </module>
