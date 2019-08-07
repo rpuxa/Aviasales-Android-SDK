@@ -1,5 +1,6 @@
 package ru.rpuxa.aviasalesapp
 
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import ru.aviasales.core.AviasalesSDK
@@ -13,12 +14,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        //Replace with your Privacy policy URL or leave blank for default Privacy policy
         PrivacyPolicyUrl.setUrl("")
 
         AviasalesSDK.getInstance()
             .init(this, SdkConfig(TRAVEL_PAYOUTS_MARKER, TRAVEL_PAYOUTS_TOKEN, SDK_HOST))
         setContentView(R.layout.activity_main)
+
+        supportActionBar!!.setBackgroundDrawable(ColorDrawable(resources.getColor(R.color.toolbar_color)))
 
         init()
     }
